@@ -23,6 +23,11 @@ public class Program {
 		
 		list.forEach(System.out::println);
 		
+		System.out.println("\n=== TEST 3: seller findByAll ====");
+		list = sellerDao.findAll();
+		
+		list.forEach(System.out::println);
+		
 	}
 
 }
